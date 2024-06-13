@@ -30,4 +30,4 @@ In this individual project for the course SPH6004 Advanced Statistical Learning,
 
 ### Overview of Analysis Workflow
 
-![workflow]('image/workflow.png')
+![workflow](image/workflow.png)
