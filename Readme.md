@@ -31,3 +31,19 @@ In this individual project for the course SPH6004 Advanced Statistical Learning,
 ### Overview of Analysis Workflow
 
 ![workflow](image/workflow.png)
+
+### Model Performance on Test Data
+
+| Model                           | AUROC | Average Precision | Precision | Recall | F1 Score | False Positive Rate |
+|---------------------------------|-------|-------------------|-----------|--------|----------|---------------------|
+| LogisticRegression              | 0.739 | 0.832             | 0.812     | 0.658  | 0.678    | 0.308               |
+| LogisticRegression-LASSO        | 0.739 | 0.832             | 0.811     | 0.657  | 0.678    | 0.309               |
+| LogisticRegression-FilterMethod | 0.735 | 0.828             | 0.811     | 0.657  | 0.677    | 0.310               |
+| DecisionTree-FilterMethod       | 0.696 | 0.802             | 0.780     | 0.671  | 0.662    | 0.382               |
+| ExtraTree-FilterMethod          | 0.725 | 0.832             | 0.801     | 0.645  | 0.665    | 0.323               |
+| RandomForest-FilterMethod       | 0.738 | 0.842             | 0.792     | 0.722  | 0.693    | 0.384               |
+| GradientBoosting-FilterMethod   | 0.744 | 0.845             | 0.744     | 0.908  | 0.704    | 0.632               |
+| AdaBoost-FilterMethod           | 0.712 | 0.820             | 0.732     | 0.881  | 0.680    | 0.652               |
+| LogisticRegression-RFE          | 0.731 | 0.824             | 0.809     | 0.654  | 0.675    | 0.313               |
+| DecisionTree-RFE                | 0.694 | 0.801             | 0.782     | 0.643  | 0.651    | 0.362               |
+| RandomForest-EmbeddedMethod     | 0.743 | 0.847             | 0.791     | 0.736  | 0.698    | 0.394               |
