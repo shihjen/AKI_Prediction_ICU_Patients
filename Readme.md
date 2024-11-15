@@ -47,3 +47,7 @@ In this individual project for the course SPH6004 Advanced Statistical Learning,
 | LogisticRegression-RFE          | 0.731 | 0.824             | 0.809     | 0.654  | 0.675    | 0.313               |
 | DecisionTree-RFE                | 0.694 | 0.801             | 0.782     | 0.643  | 0.651    | 0.362               |
 | RandomForest-EmbeddedMethod     | 0.743 | 0.847             | 0.791     | 0.736  | 0.698    | 0.394               |
+
+### Receiver operating characteristic (ROC) Curve
+
+![ROC_AUC](image/AllROC.png)
